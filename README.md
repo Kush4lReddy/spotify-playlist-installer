@@ -2,7 +2,7 @@
 
 This Python script extracts songs from a **Spotify playlist**, searches for them on **YouTube**, and downloads them as either **MP3** (audio) or **MP4** (video). 
 
-## 🚀 Features
+## Process
 - Extracts **all song names and artists** from a given Spotify playlist.
 - Searches **YouTube** for the best matching video.
 - Downloads **MP3 (audio)** or **MP4 (video)** formats.
@@ -10,7 +10,7 @@ This Python script extracts songs from a **Spotify playlist**, searches for them
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### 1 Clone the Repository**
 ```sh
@@ -42,8 +42,9 @@ pip install -r requirements.txt
 - Get a key from Google Cloud Console
 - Enable YouTube Data API v3.
 
+#### Update the Keys on the config.py
 
-## 🎯 Usage
+## Usage
 ### Run the Script
 ```sh
 python3 main.py <Spotify_Playlist_Link> <mp3 or mp4>
