@@ -1,3 +1,5 @@
-pip     23.2.1
-pytube  15.0.0
-yt-dlp  2025.2.19
+pip                      23.2.1
+yt-dlp                   2025.2.19
+spotipy                  2.25.1
+pandas                   2.2.3
+google-api-python-client 2.164.0

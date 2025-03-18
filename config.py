@@ -1,3 +1,5 @@
 
-SPOTIFY_CLIENT_ID = 'your_client_ID' # add your Client ID
-SPOTIFY_CLIENT_SECRET = 'your_API_key' # add your API key 
+SPOTIFY_CLIENT_ID = 'ADD_YOUR_CLIENT_ID' # add your Client ID
+SPOTIFY_CLIENT_SECRET = 'ADD_YOUR_API_KEY' # add your API key 
+
+YOUTUBE_API_KEY = 'ADD_YOUR_API_KEY' # add your API key

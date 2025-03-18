@@ -1,5 +1,4 @@
 import os
-import sys
 import yt_dlp
 
 
@@ -50,11 +49,4 @@ def installer(links, format):
         except Exception as e:
             print(f'Error during download: {e}')
             return -1
-    
-
-
-    
-if len(sys.argv) < 3:
-    print('Error: \nUse command: \npython3 yt_downloader.py <YT_Link_1> to <YT_Link_n> <mp4 or mp3>')
-else:
-    installer(sys.argv[1:-1], sys.argv[-1])
+    return 0
